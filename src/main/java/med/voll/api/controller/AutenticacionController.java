@@ -24,7 +24,7 @@ public class AutenticacionController {
 	private AuthenticationManager authenticationManager; 
 
 	@Autowired
-	private TokenService tokenService;
+	private TokenService tokenService; 
 	
 	@PostMapping
 	public ResponseEntity autenticarUsuario(@RequestBody @Valid DatosAutenticacionUsuario datosAutenticacionUsuario) {
